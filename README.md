@@ -192,7 +192,7 @@ if (currentComparison.length >= 3) {
 ### Installation
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/tnohrer/HBA
 cd HBA
 
 # Install dependencies
