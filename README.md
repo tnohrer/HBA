@@ -1,5 +1,14 @@
 # Hotel Booking App (HBA)
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://tnohrer.github.io/HBA-demo/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/tnohrer/HBA)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Chakra UI](https://img.shields.io/badge/Chakra_UI-3-319795?style=for-the-badge&logo=chakraui)](https://chakra-ui.com/)
+
+**🚀 [Live Demo Available](https://tnohrer.github.io/HBA-demo/) - Try it now!**
+
+
 A modern, responsive hotel booking application built with React, TypeScript, and Chakra UI. Features advanced filtering, hotel comparison, mobile-optimized design, and a sophisticated mock hotel service with realistic booking flow.
 
 ## 🚀 Features

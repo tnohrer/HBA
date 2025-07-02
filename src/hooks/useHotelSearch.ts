@@ -9,8 +9,8 @@ export const useHotelSearch = () => {
   const { 
     setSearchResults, 
     setSearchParams, 
-    currentSort,
-    currentFilters 
+    sortOption,
+    searchParams 
   } = useBookingStore();
 
   const searchHotels = async (params: SearchParams, sortBy?: SortOption) => {
@@ -19,9 +19,10 @@ export const useHotelSearch = () => {
       setError(null);
       
       // Use provided sort option or current store sort
-      const sortOption = sortBy || currentSort;
+      const currentSortOption = sortBy || sortOption;
       
       // Merge current filters with search params
+      const currentFilters = searchParams?.filters || {};
       const searchParamsWithFilters = {
         ...params,
         filters: {
@@ -30,7 +31,7 @@ export const useHotelSearch = () => {
         }
       };
       
-      const results = await HotelService.searchHotels(searchParamsWithFilters, sortOption);
+      const results = await HotelService.searchHotels(searchParamsWithFilters, currentSortOption);
       
       setSearchResults(results);
       setSearchParams(searchParamsWithFilters);
@@ -42,6 +43,7 @@ export const useHotelSearch = () => {
   };
 
   const searchWithCurrentFilters = async (baseParams: Omit<SearchParams, 'filters'>, sortBy?: SortOption) => {
+    const currentFilters = searchParams?.filters || {};
     const fullParams: SearchParams = {
       ...baseParams,
       filters: currentFilters

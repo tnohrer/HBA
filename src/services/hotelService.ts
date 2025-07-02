@@ -45,9 +45,9 @@ const MOCK_HOTELS: Hotel[] = [
     rating: 4.5,
     price: 199,
     images: {
-      lobby: ['/IMG/Hotel/Lobby.jpg'],
-      exterior: ['/IMG/Hotel/HotelExterior.jpg', '/IMG/Hotel/HotelExterior2.jpg'],
-      rooms: ['/IMG/ROOMS/Basic Room/Basic_HotelRoom.jpg', '/IMG/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
+              lobby: ['/Hotel/Lobby.jpg'],
+        exterior: ['/Hotel/HotelExterior.jpg', '/Hotel/HotelExterior2.jpg'],
+      rooms: ['/ROOMS/Basic Room/Basic_HotelRoom.jpg', '/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
     },
     amenities: ['Free WiFi', 'Pool', 'Gym', 'Restaurant', 'Bar', 'Spa', 'Room Service', 'Concierge'],
     roomTypes: [
@@ -58,7 +58,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 199,
         capacity: 2,
         status: 'available',
-        images: ['/IMG/ROOMS/Basic Room/Basic_HotelRoom.jpg']
+        images: ['/ROOMS/Basic Room/Basic_HotelRoom.jpg']
       },
       {
         id: 'luxury-room-1',
@@ -67,7 +67,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 399,
         capacity: 4,
         status: 'available',
-        images: ['/IMG/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
+        images: ['/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
       }
     ]
   },
@@ -79,9 +79,9 @@ const MOCK_HOTELS: Hotel[] = [
     rating: 4.8,
     price: 299,
     images: {
-      lobby: ['/IMG/Hotel/Lobby.jpg'],
-      exterior: ['/IMG/Hotel/HotelExterior3.jpg', '/IMG/Hotel/HotelExterior.jpg'],
-      rooms: ['/IMG/ROOMS/Middle Room/MiddleTierRoom.avif', '/IMG/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
+              lobby: ['/Hotel/Lobby.jpg'],
+        exterior: ['/Hotel/HotelExterior3.jpg', '/Hotel/HotelExterior.jpg'],
+      rooms: ['/ROOMS/Middle Room/MiddleTierRoom.avif', '/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
     },
     amenities: ['Beachfront', 'Free WiFi', 'Pool', 'Spa', 'Restaurant', 'Bar', 'Water Sports', 'Kids Club'],
     roomTypes: [
@@ -92,7 +92,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 299,
         capacity: 3,
         status: 'available',
-        images: ['/IMG/ROOMS/Middle Room/MiddleTierRoom.avif']
+        images: ['/ROOMS/Middle Room/MiddleTierRoom.avif']
       },
       {
         id: 'luxury-room-2',
@@ -101,7 +101,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 799,
         capacity: 6,
         status: 'available',
-        images: ['/IMG/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
+        images: ['/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
       }
     ]
   },
@@ -113,9 +113,9 @@ const MOCK_HOTELS: Hotel[] = [
     rating: 4.3,
     price: 249,
     images: {
-      lobby: ['/IMG/Hotel/Lobby.jpg'],
-      exterior: ['/IMG/Hotel/HotelExterior2.jpg', '/IMG/Hotel/HotelExterior.jpg'],
-      rooms: ['/IMG/ROOMS/Basic Room/Basic_HotelRoom.jpg']
+      lobby: ['/Hotel/Lobby.jpg'],
+      exterior: ['/Hotel/HotelExterior2.jpg', '/Hotel/HotelExterior.jpg'],
+      rooms: ['/ROOMS/Basic Room/Basic_HotelRoom.jpg']
     },
     amenities: ['Mountain Views', 'Free WiFi', 'Fireplace', 'Restaurant', 'Ski Storage', 'Hot Tub', 'Hiking Trails'],
     roomTypes: [
@@ -126,7 +126,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 249,
         capacity: 2,
         status: 'available',
-        images: ['/IMG/ROOMS/Basic Room/Basic_HotelRoom.jpg']
+        images: ['/ROOMS/Basic Room/Basic_HotelRoom.jpg']
       }
     ]
   },
@@ -138,9 +138,9 @@ const MOCK_HOTELS: Hotel[] = [
     rating: 4.2,
     price: 179,
     images: {
-      lobby: ['/IMG/Hotel/Lobby.jpg'],
-      exterior: ['/IMG/Hotel/HotelExterior4.jpg', '/IMG/Hotel/HotelExterior2.jpg'],
-      rooms: ['/IMG/ROOMS/Basic Room/Basic_HotelRoom.jpg', '/IMG/ROOMS/Middle Room/MiddleTierRoom.avif']
+      lobby: ['/Hotel/Lobby.jpg'],
+      exterior: ['/Hotel/HotelExterior4.jpg', '/Hotel/HotelExterior2.jpg'],
+      rooms: ['/ROOMS/Basic Room/Basic_HotelRoom.jpg', '/ROOMS/Middle Room/MiddleTierRoom.avif']
     },
     amenities: ['Free WiFi', 'Business Center', 'Gym', 'Restaurant', 'Airport Shuttle', 'Meeting Rooms', 'Printer Access'],
     roomTypes: [
@@ -151,7 +151,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 179,
         capacity: 2,
         status: 'available',
-        images: ['/IMG/ROOMS/Basic Room/Basic_HotelRoom.jpg']
+        images: ['/ROOMS/Basic Room/Basic_HotelRoom.jpg']
       },
       {
         id: 'suite-room-1',
@@ -160,7 +160,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 329,
         capacity: 4,
         status: 'available',
-        images: ['/IMG/ROOMS/Middle Room/MiddleTierRoom.avif']
+        images: ['/ROOMS/Middle Room/MiddleTierRoom.avif']
       }
     ]
   },
@@ -172,9 +172,9 @@ const MOCK_HOTELS: Hotel[] = [
     rating: 4.7,
     price: 449,
     images: {
-      lobby: ['/IMG/Hotel/Lobby.jpg'],
-      exterior: ['/IMG/Hotel/HotelExterior5.jpg', '/IMG/Hotel/HotelExterior3.jpg'],
-      rooms: ['/IMG/ROOMS/LuxuryRooms/LuxuryRoom.jpg', '/IMG/ROOMS/Middle Room/MiddleTierRoom.avif']
+      lobby: ['/Hotel/Lobby.jpg'],
+      exterior: ['/Hotel/HotelExterior5.jpg', '/Hotel/HotelExterior3.jpg'],
+      rooms: ['/ROOMS/LuxuryRooms/LuxuryRoom.jpg', '/ROOMS/Middle Room/MiddleTierRoom.avif']
     },
     amenities: ['Beachfront', 'Free WiFi', 'Multiple Pools', 'Spa', 'Luau', 'Snorkeling', 'Golf Course', 'Cultural Activities'],
     roomTypes: [
@@ -185,7 +185,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 449,
         capacity: 3,
         status: 'available',
-        images: ['/IMG/ROOMS/Middle Room/MiddleTierRoom.avif']
+        images: ['/ROOMS/Middle Room/MiddleTierRoom.avif']
       },
       {
         id: 'oceanfront-suite-1',
@@ -194,7 +194,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 899,
         capacity: 6,
         status: 'available',
-        images: ['/IMG/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
+        images: ['/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
       }
     ]
   },
@@ -206,9 +206,9 @@ const MOCK_HOTELS: Hotel[] = [
     rating: 4.1,
     price: 229,
     images: {
-      lobby: ['/IMG/Hotel/Lobby.jpg'],
-      exterior: ['/IMG/Hotel/HotelExterior6.jpg', '/IMG/Hotel/HotelExterior4.jpg'],
-      rooms: ['/IMG/ROOMS/Middle Room/MiddleTierRoom.avif', '/IMG/ROOMS/Basic Room/Basic_HotelRoom.jpg']
+      lobby: ['/Hotel/Lobby.jpg'],
+      exterior: ['/Hotel/HotelExterior6.jpg', '/Hotel/HotelExterior4.jpg'],
+      rooms: ['/ROOMS/Middle Room/MiddleTierRoom.avif', '/ROOMS/Basic Room/Basic_HotelRoom.jpg']
     },
     amenities: ['Free WiFi', 'Rooftop Terrace', 'Restaurant', 'Art Gallery', 'Pet-Friendly', 'Bike Rental', 'Wine Bar'],
     roomTypes: [
@@ -219,7 +219,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 229,
         capacity: 2,
         status: 'available',
-        images: ['/IMG/ROOMS/Middle Room/MiddleTierRoom.avif']
+        images: ['/ROOMS/Middle Room/MiddleTierRoom.avif']
       },
       {
         id: 'penthouse-1',
@@ -228,7 +228,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 459,
         capacity: 4,
         status: 'available',
-        images: ['/IMG/ROOMS/Basic Room/Basic_HotelRoom.jpg']
+        images: ['/ROOMS/Basic Room/Basic_HotelRoom.jpg']
       }
     ]
   },
@@ -240,9 +240,9 @@ const MOCK_HOTELS: Hotel[] = [
     rating: 4.6,
     price: 379,
     images: {
-      lobby: ['/IMG/Hotel/Lobby.jpg'],
-      exterior: ['/IMG/Hotel/HotelExterior7.webp', '/IMG/Hotel/HotelExterior5.jpg'],
-      rooms: ['/IMG/ROOMS/LuxuryRooms/LuxuryRoom.jpg', '/IMG/ROOMS/Middle Room/MiddleTierRoom.avif']
+      lobby: ['/Hotel/Lobby.jpg'],
+      exterior: ['/Hotel/HotelExterior7.webp', '/Hotel/HotelExterior5.jpg'],
+      rooms: ['/ROOMS/LuxuryRooms/LuxuryRoom.jpg', '/ROOMS/Middle Room/MiddleTierRoom.avif']
     },
     amenities: ['Beachfront', 'Free WiFi', 'Infinity Pool', 'Spa', 'Surfboard Rental', 'Fine Dining', 'Yoga Classes', 'Private Beach'],
     roomTypes: [
@@ -253,7 +253,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 379,
         capacity: 2,
         status: 'available',
-        images: ['/IMG/ROOMS/Middle Room/MiddleTierRoom.avif']
+        images: ['/ROOMS/Middle Room/MiddleTierRoom.avif']
       },
       {
         id: 'beachfront-suite-1',
@@ -262,7 +262,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 679,
         capacity: 5,
         status: 'available',
-        images: ['/IMG/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
+        images: ['/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
       }
     ]
   },
@@ -274,9 +274,9 @@ const MOCK_HOTELS: Hotel[] = [
     rating: 3.9,
     price: 129,
     images: {
-      lobby: ['/IMG/Hotel/Lobby.jpg'],
-      exterior: ['/IMG/Hotel/HotelExterior8.jpg', '/IMG/Hotel/HotelExterior6.jpg'],
-      rooms: ['/IMG/ROOMS/Basic Room/Basic_HotelRoom.jpg', '/IMG/ROOMS/Middle Room/MiddleTierRoom.avif']
+      lobby: ['/Hotel/Lobby.jpg'],
+      exterior: ['/Hotel/HotelExterior8.jpg', '/Hotel/HotelExterior6.jpg'],
+      rooms: ['/ROOMS/Basic Room/Basic_HotelRoom.jpg', '/ROOMS/Middle Room/MiddleTierRoom.avif']
     },
     amenities: ['Casino', 'Free WiFi', 'Pool', 'Multiple Restaurants', 'Entertainment Shows', 'Shopping', 'Parking'],
     roomTypes: [
@@ -287,7 +287,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 129,
         capacity: 2,
         status: 'available',
-        images: ['/IMG/ROOMS/Basic Room/Basic_HotelRoom.jpg']
+        images: ['/ROOMS/Basic Room/Basic_HotelRoom.jpg']
       },
       {
         id: 'vegas-suite-1',
@@ -296,7 +296,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 299,
         capacity: 4,
         status: 'available',
-        images: ['/IMG/ROOMS/Middle Room/MiddleTierRoom.avif']
+        images: ['/ROOMS/Middle Room/MiddleTierRoom.avif']
       }
     ]
   },
@@ -308,9 +308,9 @@ const MOCK_HOTELS: Hotel[] = [
     rating: 4.9,
     price: 549,
     images: {
-      lobby: ['/IMG/Hotel/Lobby.jpg'],
-      exterior: ['/IMG/Hotel/HotelExterior9.jpg', '/IMG/Hotel/HotelExterior7.webp'],
-      rooms: ['/IMG/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
+      lobby: ['/Hotel/Lobby.jpg'],
+      exterior: ['/Hotel/HotelExterior9.jpg', '/Hotel/HotelExterior7.webp'],
+      rooms: ['/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
     },
     amenities: ['Beachfront', 'Championship Golf', 'Luxury Spa', 'Fine Dining', 'Private Beach', 'Butler Service', 'Helicopter Tours', 'Marina'],
     roomTypes: [
@@ -321,7 +321,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 549,
         capacity: 3,
         status: 'available',
-        images: ['/IMG/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
+        images: ['/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
       },
       {
         id: 'presidential-1',
@@ -330,7 +330,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 1299,
         capacity: 8,
         status: 'available',
-        images: ['/IMG/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
+        images: ['/ROOMS/LuxuryRooms/LuxuryRoom.jpg']
       }
     ]
   },
@@ -342,9 +342,9 @@ const MOCK_HOTELS: Hotel[] = [
     rating: 4.0,
     price: 219,
     images: {
-      lobby: ['/IMG/Hotel/Lobby.jpg'],
-      exterior: ['/IMG/Hotel/HotelExterior10.jpg', '/IMG/Hotel/HotelExterior8.jpg'],
-      rooms: ['/IMG/ROOMS/Basic Room/Basic_HotelRoom.jpg', '/IMG/ROOMS/Middle Room/MiddleTierRoom.avif']
+      lobby: ['/Hotel/Lobby.jpg'],
+      exterior: ['/Hotel/HotelExterior10.jpg', '/Hotel/HotelExterior8.jpg'],
+      rooms: ['/ROOMS/Basic Room/Basic_HotelRoom.jpg', '/ROOMS/Middle Room/MiddleTierRoom.avif']
     },
     amenities: ['Historic Charm', 'Free WiFi', 'Restaurant', 'Harbor Views', 'Fitness Center', 'Business Center', 'Valet Parking'],
     roomTypes: [
@@ -355,7 +355,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 219,
         capacity: 2,
         status: 'available',
-        images: ['/IMG/ROOMS/Basic Room/Basic_HotelRoom.jpg']
+        images: ['/ROOMS/Basic Room/Basic_HotelRoom.jpg']
       },
       {
         id: 'historic-suite-1',
@@ -364,7 +364,7 @@ const MOCK_HOTELS: Hotel[] = [
         price: 419,
         capacity: 4,
         status: 'available',
-        images: ['/IMG/ROOMS/Middle Room/MiddleTierRoom.avif']
+        images: ['/ROOMS/Middle Room/MiddleTierRoom.avif']
       }
     ]
   }

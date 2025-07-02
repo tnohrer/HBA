@@ -20,7 +20,7 @@ const TRENDING_DESTINATIONS: Destination[] = [
     name: 'New York',
     country: 'United States',
     flag: '🇺🇸',
-    image: '/IMG/Hotel/NewYorkHotelTrending.jpg',
+    image: '/Hotel/NewYorkHotelTrending.jpg',
     description: 'The city that never sleeps'
   },
   {
@@ -28,7 +28,7 @@ const TRENDING_DESTINATIONS: Destination[] = [
     name: 'Miami',
     country: 'United States', 
     flag: '🇺🇸',
-    image: '/IMG/Hotel/HotelExterior3.jpg',
+    image: '/Hotel/HotelExterior3.jpg',
     description: 'Beautiful beaches and vibrant nightlife'
   },
   {
@@ -36,7 +36,7 @@ const TRENDING_DESTINATIONS: Destination[] = [
     name: 'Aspen',
     country: 'United States',
     flag: '🇺🇸', 
-    image: '/IMG/Hotel/AspenHotelExterior.jpg',
+    image: '/Hotel/AspenHotelExterior.jpg',
     description: 'Mountain paradise for outdoor enthusiasts'
   }
 ];
